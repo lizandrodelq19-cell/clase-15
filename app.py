@@ -10,7 +10,7 @@ st.set_page_config(
 )
 
 # 1. Preparación y Carga de Logo (Opcional si no se tiene imagen física, se maneja de forma segura)
-logo_path = "https://researchers.uss.cl/es/organisations/universidad-san-sebasti%C3%A1n/network-map/"
+logo_path = ""
 has_logo = os.path.exists(logo_path)
 
 # 3. Barra lateral (st.sidebar)
